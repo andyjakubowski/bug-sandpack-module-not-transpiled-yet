@@ -1,5 +1,6 @@
 {
   "name": "bug-sandpack-module-not-transpiled-yet",
+  "homepage": "https://andyjakubowski.github.io/bug-sandpack-module-not-transpiled-yet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
