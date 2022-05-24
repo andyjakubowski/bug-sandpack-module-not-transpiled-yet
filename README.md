@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Reproduction repo for a `sandpack-core` error
+
+Filed issue: [https://github.com/codesandbox/sandpack/issues/470](https://github.com/codesandbox/sandpack/issues/470)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
