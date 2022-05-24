@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { Sandpack } from '@codesandbox/sandpack-react';
+import { dependencies } from './dependencies';
+import { filesSubfolder } from './filesSubfolder';
+import { filesTopLevel } from './filesTopLevel';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello CodeSandbox</h1>
+      <h2>Start editing to see some magic happen!</h2>
+      <p>All modules imported at the top-level:</p>
+      <Sandpack
+        template="react"
+        files={filesTopLevel}
+        customSetup={{
+          dependencies,
+        }}
+      />
+
+      <p>One module imported from a subfolder:</p>
+      <p>
+        If you reload the sandbox a few times in Safari, you should see an error
+        message that says:
+      </p>
+      <pre>/subfolder/cranberry.js: hasn't been transpiled yet.</pre>
+      <Sandpack
+        template="react"
+        files={filesSubfolder}
+        customSetup={{
+          dependencies,
+        }}
+      />
     </div>
   );
 }
-
-export default App;
