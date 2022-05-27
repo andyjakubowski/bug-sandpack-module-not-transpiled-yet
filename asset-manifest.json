@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bug-sandpack-module-not-transpiled-yet/static/css/main.8d8d7065.css",
-    "main.js": "/bug-sandpack-module-not-transpiled-yet/static/js/main.3a62ed1d.js",
+    "main.js": "/bug-sandpack-module-not-transpiled-yet/static/js/main.488d9a53.js",
     "static/js/972.0ba06881.chunk.js": "/bug-sandpack-module-not-transpiled-yet/static/js/972.0ba06881.chunk.js",
     "static/js/787.4ba343dc.chunk.js": "/bug-sandpack-module-not-transpiled-yet/static/js/787.4ba343dc.chunk.js",
     "index.html": "/bug-sandpack-module-not-transpiled-yet/index.html",
     "main.8d8d7065.css.map": "/bug-sandpack-module-not-transpiled-yet/static/css/main.8d8d7065.css.map",
-    "main.3a62ed1d.js.map": "/bug-sandpack-module-not-transpiled-yet/static/js/main.3a62ed1d.js.map",
+    "main.488d9a53.js.map": "/bug-sandpack-module-not-transpiled-yet/static/js/main.488d9a53.js.map",
     "972.0ba06881.chunk.js.map": "/bug-sandpack-module-not-transpiled-yet/static/js/972.0ba06881.chunk.js.map",
     "787.4ba343dc.chunk.js.map": "/bug-sandpack-module-not-transpiled-yet/static/js/787.4ba343dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8d8d7065.css",
-    "static/js/main.3a62ed1d.js"
+    "static/js/main.488d9a53.js"
   ]
 }
